@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "es5",//Object.definePerpory   //module和target都定位6 则为Es6 语法
+    "sourceMap": true,
+    "jsx": "React",
+    "declaration": true,
+    "outDir": "./lib",
+   /* "declarationDir": "./dist/types/",*/
+    "moduleResolution": "node"
+  },
+  "include": [
+    "components/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
