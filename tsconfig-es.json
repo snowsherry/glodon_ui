@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es6",
+    "sourceMap": true,
+    "jsx": "React",
+    "declaration": true,
+    "outDir": "./es",
+    "moduleResolution": "node"
+  },
+  "include": [
+    "components/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

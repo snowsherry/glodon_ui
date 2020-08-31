@@ -1,12 +1,16 @@
 {
-  "name": "glodon-design",
+  "name": "yj-design",
   "version": "1.0.0",
-  "description": "glodon-ui",
-  "main": "index.js",
+  "description": "yj-design",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "lib","dist","es"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js  --progress",
-    "compile": "tsc ./components/index.tsx"
+    "compile": "tsc  && tsc -p tsconfig-es.json"
   },
   "keywords": [
     "glodon"
